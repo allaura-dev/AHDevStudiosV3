@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/site.css">
+    <title>Complete Template</title>
+</head>
+<body onresize="CheckDimens();" onload="SetYear();">
+    
+    <nav>
+        <a href="#" title="home">
+            <img id="logo" src="assets/images/SampleLogo.png" alt="sample logo">
+        </a>
+        <span>//code.</span>
+        <ul>
+            <li><a href="#ahdev" title="about">AH! Dev Studios</a></li>
+            <li><a href="#resume" title="resume">Resume</a></li>
+        </ul>
+        <div id="hamburger" onclick="ToggleNav();">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+    <div id="mobileNav">
+        <a href="#ahdev">AH! Dev Studios</a>
+        <a href="#resume">Resume</a>
+    </div>
+    <header>
+    </header>
+    <main>
+        <section id="ahdev"><span class="tempText">//AH! Dev Studios</span></section>
+        <section id="resume"><span class="tempText">//RESUME</span></section>
+    </main>
+    <footer>
+            <img src="assets/images/github-64.png" alt="github">
+            <img src="assets/images/linkedin-64.png" alt="linkedin">
+    </footer>
+    <a href="#" title="To top">
+        <span class="toTop">&uarr;</span>
+    </a>
+    
+    <script src="scripts/jquery.js"></script>
+    <script src="scripts/site.js"></script>
+</body>
+</html>
